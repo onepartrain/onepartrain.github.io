@@ -1,13 +1,32 @@
----
-layout: default
-title: Some things
----
+<!DOCTYPE html>
+<html>
+<head>
+  <title>One Part Rain</title>
+  <link rel="stylesheet" type="text/css" href="./onepartrain.css">
+</head>
+<body>
+  <div class="main-page">
+    <div class="hero"></div>
+    <div class="content">
+      <h1>One Part Rain</h1>
 
-<div id="home">
-  <h1>Blog Posts</h1>
-  <ul class="posts">
-    {% for post in site.posts %}
-      <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ post.url }}">{{ post.title }}</a></li>
-    {% endfor %}
-  </ul>
-</div>
+      <hr/>
+
+      <p class="fancy">
+        Two parts imagination,
+        <br/>four parts laughter,
+        <br/>three parts hard work,
+        <br/>and one part rain.
+      </p>
+
+      <hr/>
+
+      <p class="fancy">
+        One Part Rain, LLC is our family business.  We <a href="https://www.etsy.com/shop/onepartrain">sell beautiful clothing</a> and are the ones behind the popular, private budgeting app, <a href="https://www.budgetwithbuckets.com">Buckets</a>.
+      </p>
+
+    </div>
+    <footer>&copy; One Part Rain, LLC | <a href="mailto:haggardii@gmail.com">Contact us</a></footer>
+  </div>
+</body>
+</html>
