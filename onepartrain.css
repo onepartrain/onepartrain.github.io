@@ -1,7 +1,6 @@
-@import url('https://fonts.googleapis.com/css?family=Allura|Just+Me+Again+Down+Here|Open+Sans+Condensed:300');
-@import url('https://fonts.googleapis.com/css?family=Lora|Bad+Script|Courgette|Kaushan+Script|Rancho');
+@import url('https://fonts.googleapis.com/css?family=Lora');
 * {
-  font-family: Lora, 'Kaushan Script', serif;
+  font-family: Lora, serif;
 }
 body {
   padding: 0;
